@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>logic</id>
+    <version>2.3.29</version>
+    <owners>Jay Carlson</owners>
+    <title>Saleae Logic</title>
+    <authors>Saleae, Inc.</authors>
+    <projectUrl>https://www.saleae.com/</projectUrl>
+    <iconUrl>https://www.saleae.com/images/logo-black.svg</iconUrl>
+    <copyright>2021 Saleae, Inc</copyright>
+    <licenseUrl>https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/5697d62ba03bdba21581dc15/429ff3e09adc4067ec9984092759897d/License.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://support.saleae.com/</docsUrl>
+    <packageSourceUrl>https://github.com/jaydcarlson/chocolatey-packages</packageSourceUrl>
+    <releaseNotes>* Added packageSourceUrl and release notes to this package</releaseNotes>
+    <tags>Saleae Logic Analyzer</tags>
+    <summary>Saleae Logic Analyzer software</summary>
+    <description>Effortlessly decode protocols like SPI, I2C, Serial, and many more. Leverage community created analyzers or build your own low-level or high-level protocol analyzer.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
